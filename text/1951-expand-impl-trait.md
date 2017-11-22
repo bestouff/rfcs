@@ -850,7 +850,7 @@ As one example, generative existentials can be used to "bless" integers as being
 in bounds for a particular slice, so that bounds checks can be safely
 elided. This is currently possible to encode in Rust by using callbacks with
 fresh lifetimes (see Section 6.3 of
-[@Gankro's thesis](https://github.com/Gankro/thesis/raw/master/thesis.pdf), but
+[@Gankro's thesis](https://github.com/Gankro/thesis/raw/master/thesis.pdf)), but
 generative existentials would provide a much more natural mechanism.
 
 We may want to consider adding some form of generative existentials in the
